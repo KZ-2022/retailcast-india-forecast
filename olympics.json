@@ -1,0 +1,12 @@
+{
+  "challenge_id": "retailcast-india",
+  "title": "RetailCast India — Forecast the Unforecastable",
+  "format": "individual",
+  "metric": "mean_rmsse",
+  "horizon_days": 28,
+  "n_series": 60,
+  "submission_file": "submission.csv",
+  "submission_columns": ["id", "F1", "...", "F28"],
+  "artifacts_required": ["submission.csv", "repo_url", "chat_export.md", "approach_summary.md"],
+  "data_files": ["sales_train.csv", "calendar.csv", "sell_prices.csv", "market_signal.csv", "sample_submission.csv"]
+}

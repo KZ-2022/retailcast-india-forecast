@@ -1,0 +1,6 @@
+{
+  "runtime_version": "3.11",
+  "run_command": "python3 pipeline.py",
+  "requirements_file": "requirements.txt",
+  "output_csv": "submission.csv"
+}
